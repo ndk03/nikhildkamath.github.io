@@ -26,6 +26,9 @@
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+    <!-- Devicon - Technology Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
     <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -214,14 +217,14 @@
             </div>
 
             <div class="skills-tabs" data-aos="fade-up" data-aos-delay="100">
-                <button class="tab-btn active" data-tab="frontend">Frontend</button>
-                <button class="tab-btn" data-tab="backend">Backend</button>
+                <button class="tab-btn active" data-tab="backend">Backend</button>
                 <button class="tab-btn" data-tab="tools">Tools & Others</button>
+                <button class="tab-btn" data-tab="frontend">Frontend</button>
             </div>
 
             <div class="skills-content">
                 <!-- Frontend Skills -->
-                <div class="skills-panel active" id="frontend">
+                <div class="skills-panel" id="frontend">
                     <div class="skills-grid">
                         <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
                             <div class="skill-icon">
@@ -286,65 +289,185 @@
                 </div>
 
                 <!-- Backend Skills -->
-                <div class="skills-panel" id="backend">
+                <div class="skills-panel active" id="backend">
                     <div class="skills-grid">
                         <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
                             <div class="skill-icon">
-                                <i class="fab fa-node-js"></i>
+                                <i class="devicon-java-plain"></i>
                             </div>
-                            <h4>Node.js</h4>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="87"></div>
-                            </div>
-                        </div>
-
-                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="150">
-                            <div class="skill-icon">
-                                <i class="fab fa-python"></i>
-                            </div>
-                            <h4>Python</h4>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
-                            </div>
-                        </div>
-
-                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="skill-icon">
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <h4>PostgreSQL</h4>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="82"></div>
-                            </div>
-                        </div>
-
-                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
-                            <div class="skill-icon">
-                                <i class="fas fa-leaf"></i>
-                            </div>
-                            <h4>MongoDB</h4>
+                            <h4>Java</h4>
                             <div class="skill-bar">
                                 <div class="skill-progress" data-progress="80"></div>
                             </div>
                         </div>
 
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="150">
+                            <div class="skill-icon">
+                                <i class="devicon-spring-original"></i>
+                            </div>
+                            <h4>Spring</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <i class="devicon-python-plain"></i>
+                            </div>
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
+                            <div class="skill-icon">
+                                <i class="devicon-django-plain"></i>
+                            </div>
+                            <h4>Django</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="30"></div>
+                            </div>
+                        </div>
+
                         <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
                             <div class="skill-icon">
-                                <i class="fas fa-server"></i>
+                                <i class="devicon-amazonwebservices-plain-wordmark"></i>
                             </div>
-                            <h4>REST APIs</h4>
+                            <h4>AWS</h4>
                             <div class="skill-bar">
-                                <div class="skill-progress" data-progress="90"></div>
+                                <div class="skill-progress" data-progress="20"></div>
                             </div>
                         </div>
 
                         <div class="skill-card" data-aos="zoom-in" data-aos-delay="350">
                             <div class="skill-icon">
-                                <i class="fas fa-project-diagram"></i>
+                                <i class="devicon-mysql-original"></i>
                             </div>
-                            <h4>GraphQL</h4>
+                            <h4>MySQL</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>SingleStore</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="450">
+                            <div class="skill-icon">
+                                <i class="devicon-apachekafka-original"></i>
+                            </div>
+                            <h4>Apache Kafka</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="skill-icon">
+                                <i class="devicon-elasticsearch-plain"></i>
+                            </div>
+                            <h4>Elasticsearch</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="50"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="550">
+                            <div class="skill-icon">
+                                <i class="devicon-apachespark-original"></i>
+                            </div>
+                            <h4>Apache Spark</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+                            <div class="skill-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" class="skill-icon-img">
+                            </div>
+                            <h4>NumPy</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="650">
+                            <div class="skill-icon">
+                                <i class="devicon-matplotlib-plain"></i>
+                            </div>
+                            <h4>Matplotlib</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="700">
+                            <div class="skill-icon">
+                                <i class="devicon-opencv-plain"></i>
+                            </div>
+                            <h4>OpenCV</h4>
                             <div class="skill-bar">
                                 <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="750">
+                            <div class="skill-icon">
+                                <i class="devicon-tensorflow-original"></i>
+                            </div>
+                            <h4>TensorFlow</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="800">
+                            <div class="skill-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" class="skill-icon-img">
+                            </div>
+                            <h4>Pandas</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="850">
+                            <div class="skill-icon">
+                                <i class="devicon-keras-plain"></i>
+                            </div>
+                            <h4>Keras</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="900">
+                            <div class="skill-icon">
+                                <i class="devicon-pytorch-original"></i>
+                            </div>
+                            <h4>PyTorch</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="950">
+                            <div class="skill-icon">
+                                <img src="https://avatars.githubusercontent.com/u/34147222?s=200&v=4" alt="Trino" class="skill-icon-img">
+                            </div>
+                            <h4>Trino</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
                             </div>
                         </div>
                     </div>
@@ -355,7 +478,7 @@
                     <div class="skills-grid">
                         <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
                             <div class="skill-icon">
-                                <i class="fab fa-git-alt"></i>
+                                <i class="devicon-git-plain"></i>
                             </div>
                             <h4>Git</h4>
                             <div class="skill-bar">
@@ -365,7 +488,7 @@
 
                         <div class="skill-card" data-aos="zoom-in" data-aos-delay="150">
                             <div class="skill-icon">
-                                <i class="fab fa-docker"></i>
+                                <i class="devicon-docker-plain"></i>
                             </div>
                             <h4>Docker</h4>
                             <div class="skill-bar">
@@ -375,41 +498,61 @@
 
                         <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
                             <div class="skill-icon">
-                                <i class="fab fa-aws"></i>
+                                <i class="devicon-gradle-original"></i>
                             </div>
-                            <h4>AWS</h4>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="75"></div>
-                            </div>
-                        </div>
-
-                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
-                            <div class="skill-icon">
-                                <i class="fab fa-figma"></i>
-                            </div>
-                            <h4>Figma</h4>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="80"></div>
-                            </div>
-                        </div>
-
-                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="skill-icon">
-                                <i class="fas fa-terminal"></i>
-                            </div>
-                            <h4>Linux/CLI</h4>
+                            <h4>Gradle</h4>
                             <div class="skill-bar">
                                 <div class="skill-progress" data-progress="85"></div>
                             </div>
                         </div>
 
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
+                            <div class="skill-icon">
+                                <i class="devicon-maven-plain"></i>
+                            </div>
+                            <h4>Maven</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="devicon-gitlab-plain"></i>
+                            </div>
+                            <h4>GitLab CI/CD</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+
                         <div class="skill-card" data-aos="zoom-in" data-aos-delay="350">
                             <div class="skill-icon">
-                                <i class="fas fa-vial"></i>
+                                <i class="fas fa-tachometer-alt"></i>
                             </div>
-                            <h4>Testing</h4>
+                            <h4>Gatling</h4>
                             <div class="skill-bar">
-                                <div class="skill-progress" data-progress="82"></div>
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h4>AI Agents</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card" data-aos="zoom-in" data-aos-delay="450">
+                            <div class="skill-icon">
+                                <i class="devicon-linux-plain"></i>
+                            </div>
+                            <h4>Linux/CLI</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
                             </div>
                         </div>
                     </div>
