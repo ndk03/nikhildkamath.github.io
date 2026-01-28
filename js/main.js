@@ -44,8 +44,9 @@ function initializeTypingEffect() {
 
     const phrases = [
         'Software Developer',
-        'Full Stack Engineer',
-        'UI/UX Enthusiast',
+        'Back End Engineer',
+        'Data Engineer',
+        'AI/ML Enthusiast',
         'Problem Solver',
         'Tech Innovator'
     ];
