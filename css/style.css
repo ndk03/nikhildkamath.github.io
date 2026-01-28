@@ -1389,6 +1389,16 @@ body:hover .cursor-glow {
     animation: heartbeat 1.5s infinite;
 }
 
+.footer-bottom a {
+    color: var(--accent-primary);
+    font-weight: 500;
+    transition: color var(--transition-fast);
+}
+
+.footer-bottom a:hover {
+    color: var(--accent-secondary);
+}
+
 @keyframes heartbeat {
     0%, 100% {
         transform: scale(1);
